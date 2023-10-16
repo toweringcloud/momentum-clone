@@ -54,7 +54,7 @@ function changeBackgroundImage() {
 	];
 	const getRandomIndex = images[Math.floor(Math.random() * images.length)];
 	const resourceHome = "https://github.com/toweringcloud/momentum-clone";
-	document.body.style.background = `url(${resourceHome}/tree/main/img/${getRandomIndex}) no-repeat`;
+	document.body.style.background = `url(${resourceHome}/blob/main/img/${getRandomIndex}) no-repeat`;
 	document.body.style.backgroundSize = "cover";
 }
 
