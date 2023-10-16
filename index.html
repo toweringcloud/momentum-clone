@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>momentum clone challenge</title>
+		<link
+			rel="stylesheet"
+			as="style"
+			crossorigin
+			href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css"
+		/>
+		<link
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./css/style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<header class="wrap">
+				<div class="item left-header">
+					<span id="logo">Momentum Clone</span><br />
+					<a href="https://github.com/toweringcloud/momentum-clone"
+						><i id="github" class="fa-brands fa-github"></i
+					></a>
+				</div>
+				<div class="item center-header">&nbsp;</div>
+				<div class="item right-header">
+					<div id="weather">
+						<span></span>
+						<hr />
+						<span></span>
+					</div>
+				</div>
+			</header>
+			<main class="wrap">
+				<div class="item left-sidebar">&nbsp;</div>
+				<div class="item main-content">
+					<h2 id="d-day"></h2>
+					<h1 id="clock">00:00:00</h1>
+					<form id="login-form" class="hidden">
+						<input
+							type="text"
+							placeholder="Hello, What's your name?"
+							maxlength="10"
+							required
+						/>
+						<input type="submit" value="LOG IN" />
+					</form>
+					<span id="welcome" class="hidden"></span>
+					<i id="signout" class="hidden fa-solid fa-sign-out"></i>
+					<p></p>
+				</div>
+				<div class="item right-sidebar">
+					<div id="todo" hidden>
+						<form id="todo-form">
+							<input
+								id="todo-item"
+								type="text"
+								placeholder="Write a To Do!"
+								maxlength="20"
+								size="12"
+								required
+							/>
+						</form>
+						<ul id="todo-list"></ul>
+					</div>
+				</div>
+			</main>
+			<footer class="wrap">
+				<div class="item footer">
+					<div id="quote">
+						<span></span>
+						<p></p>
+						<span></span>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<script>
+			let savedUserName = localStorage.getItem("userName");
+		</script>
+		<script src="./js/background.js"></script>
+		<script src="./js/clock.js"></script>
+		<script src="./js/quotes.js"></script>
+		<script src="./js/todo.js"></script>
+		<script src="./js/weather.js"></script>
+		<script src="./js/greetings.js"></script>
+	</body>
+</html>
