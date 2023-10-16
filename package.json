@@ -4,6 +4,7 @@
 	"author": "toweringcloud",
 	"description": "nomadcoders vanillajs beginner final challenge",
 	"homepage": "https://nomadcoders.co/javascript-for-beginners",
+	"license": "MIT",
 	"main": "index.html",
 	"scripts": {
 		"start": "parcel index.html --open",
