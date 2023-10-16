@@ -1,2 +1,9 @@
 # momentum-clone
-nomadcoders vanillajs beginner final challenge : clock, weather, location, quotes, greeting, random background, todos
+nomadcoders vanillajs beginner final challenge
+- background : show random background colors or images
+- clock : show current time or d-day until this year
+- greeting : show welcome message to you
+- quotes : show random quotes
+- weather : show current temperature as degree
+- location : show current geolocation as city
+- todos : show list to do and write one
