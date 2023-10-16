@@ -53,7 +53,8 @@ function changeBackgroundImage() {
 		"b12_dec.png",
 	];
 	const getRandomIndex = images[Math.floor(Math.random() * images.length)];
-	document.body.style.background = `url(img/${getRandomIndex}) no-repeat`;
+	const resourceHome = "https://github.com/toweringcloud/momentum-clone";
+	document.body.style.background = `url(${resourceHome}/tree/main/img/${getRandomIndex}) no-repeat`;
 	document.body.style.backgroundSize = "cover";
 }
 
