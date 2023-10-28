@@ -1,6 +1,6 @@
 # momentum-clone
 
-vanillajs chrome web accessories
+## vanillajs chrome web accessories
 
 -   background : show random background colors or images
 -   clock : show current time or d-day until this year
