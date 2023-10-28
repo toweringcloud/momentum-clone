@@ -9,3 +9,9 @@ vanillajs chrome web accessories
 -   weather : show current temperature as degree
 -   location : show current geolocation as city
 -   todos : show list to do and write one
+
+[before login]
+![Alt text](https://github.com/toweringcloud/momentum-clone/blob/main/demo/snapshot1.png)
+
+[after login]
+![Alt text](https://github.com/toweringcloud/momentum-clone/blob/main/demo/snapshot2.png)
