@@ -11,7 +11,7 @@ vanillajs chrome web accessories
 -   todos : show list to do and write one
 
 [before login]
-![Alt text](https://github.com/toweringcloud/momentum-clone/blob/main/demo/snapshot1.png)
+![Alt text](https://github.com/toweringcloud/momentum-clone/blob/main/demo/snapshot1.png?raw=true)
 
 [after login]
-![Alt text](https://github.com/toweringcloud/momentum-clone/blob/main/demo/snapshot2.png)
+![Alt text](https://github.com/toweringcloud/momentum-clone/blob/main/demo/snapshot2.png?raw=true)
