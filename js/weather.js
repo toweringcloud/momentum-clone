@@ -3,7 +3,7 @@ const how = document.querySelector("#weather span:first-child");
 const where = document.querySelector("#weather span:last-child");
 
 function onGeoPass(position) {
-	const API_KEY = "5c6103e183b1a9a0eff2919271b2cd99";
+	const API_KEY = "{your_credential}";
 	const lat = position.coords.latitude;
 	const lon = position.coords.longitude;
 	const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${API_KEY}&units=metric`;
